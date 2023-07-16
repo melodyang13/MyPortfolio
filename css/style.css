@@ -85,3 +85,10 @@ body{
     gap: 10px;
 }
 
+.projB{
+    height:200px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(87, 67, 21, 20%);
+}
+
