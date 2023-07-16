@@ -3,50 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(232, 218, 184);
+        }
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 0;
+            height:350px;
+            padding: 50px;
+            gap:100px;
+
+        }
+        .text1{
+            font-family: 'Poppins', sans-serif;
+            justify-content: center;
+        }
+        .name {
+            font-size: 5rem;
+            font-weight: bolder;
+            color:ghostwhite;
+
+        }
+        #picture{
+            border-radius: 50%;
+        }
+        .projects{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+
+
+    </style>
 </head>
 <body>
-    <img src="./assets/images/id.jpg" alt="Picture of Melody Ang" width="200" height="200"/>
-    <h1>Melody Jane C. Ang</h1>
-    <h2>Summary</h2>
-    <hr />
-    <p>Meatloaf frankfurter beef ribs, meatball pig pork leberkas shankle shank cupim spare ribs short ribs. Short loin ham corned beef hamburger meatloaf. Frankfurter prosciutto swine, salami beef ribs turkey biltong andouille brisket picanha doner. Capicola pork belly turducken filet mignon jerky hamburger kielbasa meatloaf chicken boudin.</p>
-    <br />
-    <h2>Education</h2>
-    <hr />
-    <ul>
-        <h3><li>2025 <br>Bachelor of Science in Information Technology<br />
-                Saint Louis University </li></h3>
-        <h3><li>2021<br />Senior High School<br/>
-        Small World Christian School Foundation</li></h3>
-    </ul>
-    <br/>
-    <h2>Work Experience</h2>
-    <hr/>
-    <ul>
-        <h4><li>2020-2023 <br />
-            Krusty Krab
-        </br>Junior Manager</li></h4>
-        <p>Bacon ipsum dolor amet tongue swine buffalo t-bone cow. Turducken ball tip brisket, tenderloin corned beef pig turkey short loin short ribs tail shoulder. Prosciutto meatloaf ribeye jerky leberkas hamburger ball tip fatback meatball corned beef short ribs strip steak. Burgdoggen jerky frankfurter tenderloin t-bone spare ribs drumstick meatloaf buffalo andouille pork leberkas cow.</p>
-        <h4><li>2018-2019 <br />
-            Bikini Bottom
-        </br>Senior Developer</li></h4>
-                <p>Bacon ipsum dolor amet tongue swine buffalo t-bone cow. Turducken ball tip brisket, tenderloin corned beef pig turkey short loin short ribs tail shoulder. Prosciutto meatloaf ribeye jerky leberkas hamburger ball tip fatback meatball corned beef short ribs strip steak. Burgdoggen jerky frankfurter tenderloin t-bone spare ribs drumstick meatloaf buffalo andouille pork leberkas cow.</p>
+    <div class="container">
+         <div class="text1">
+             <h1>Hi There! I am </h1>
+             <h1 class="name">Melody Ang</h1>
+             <h3>a UI/UX Designer </h3>
+             <button> View Skills</button>
+        </div>
+        <img id="picture" src="./assets/images/id.jpg" alt="Picture of Melody Ang" width="300" height="300"/>
+    </div>
+    <div class="about">
 
-    </ul>
-    <br/>
+    </div>
+    <div class="skills">
 
-    <h2>Skills</h2>
-    <hr />
-    <ul>
-        <li>Git</li>
-        <li>Java</li>
-        <li>Wireframing</li>
-        <li>User Interface</li>
-        <li>Microsoft Excel</li>
-        <li>Database</li>
-        <li>Tesiting and Debugging</li>
-    </ul>
-    <br/>
+    </div>
+    <div class="projects">
+        <h1 >My Projects</h1>
+        <button class="projB" id="vaccine">
+            <img src="https://i.ibb.co/CW5Wvry/buttonpng.png" alt="buttonpng" border="0" />
+        </button>
+        <button class="projB" id="canteen">SLU canteen ordering app</button>
+        <button class="projB" id="pal-en-queue">pal-en-queue</button>
+        <button class="projB" id="milktea"> CunningCat Ordering App</button>
+        <button class="projB" id="wordy">Wordy Game</button>
+    </div>
+
+
     <h2><a href="./public/contact.html">Contact Me</a></h2>
 
     
